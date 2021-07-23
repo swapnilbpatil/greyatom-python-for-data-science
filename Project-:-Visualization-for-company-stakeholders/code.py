@@ -33,6 +33,7 @@ print(education_and_loan)
 education_and_loan.plot(kind='bar',stacked=True)
 plt.xlabel('Education status')
 plt.ylabel('Loan status')
+
 plt.xticks(rotation=45)
 plt.show()
 
